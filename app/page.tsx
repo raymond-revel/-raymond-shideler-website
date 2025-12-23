@@ -14,8 +14,11 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Raymond Shideler',
-    jobTitle: ['Marketing & Sales Professional', 'Entrepreneur', 'Film Composer', 'Songwriter'],
+    alternateName: 'Raymond Revel Shideler',
+    jobTitle: ['Marketing & Sales Professional', 'Entrepreneur', 'Film Composer', 'Songwriter', 'Music Producer'],
+    description: 'Marketing & Sales professional, Entrepreneur, Film Composer, and founding member of Soundcheck Live.',
     url: 'https://raymondshideler.com',
+    image: 'https://raymondshideler.com/images/raymond-shideler-photo.png',
     sameAs: [
       'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
       'https://www.airgigs.com/user/raymondrevelmusic',
@@ -23,8 +26,16 @@ export default function Home() {
       'https://credits.muso.ai/profile/d5772709-0b56-4f96-b279-b0e21fa6e407',
       'https://www.imdb.com/name/nm17548422/',
     ],
-    knowsAbout: ['Marketing', 'Sales', 'Entrepreneurship', 'Music Production', 'Film Scoring', 'Songwriting'],
+    knowsAbout: ['Marketing', 'Sales', 'Entrepreneurship', 'Music Production', 'Film Scoring', 'Songwriting', 'Business Development'],
+    alumniOf: {
+      '@type': 'Organization',
+      name: 'Soundcheck Live',
+    },
     memberOf: {
+      '@type': 'Organization',
+      name: 'Soundcheck Live',
+    },
+    worksFor: {
       '@type': 'Organization',
       name: 'Soundcheck Live',
     },
@@ -66,6 +77,10 @@ export default function Home() {
             <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
               Welcome to my personal website. I'm a marketing and sales professional with a passion for entrepreneurship and innovation. 
               As a founding member of the Soundcheck Live team, I'm dedicated to building successful businesses and driving growth through strategic marketing and sales initiatives.
+            </p>
+            <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+              I'm also an accomplished film composer and songwriter, with credits spanning music production, film scoring, and professional vocal work. 
+              Explore my work and connect with me through the links below.
             </p>
           </div>
         </div>

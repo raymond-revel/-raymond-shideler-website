@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Media & Socials',
@@ -112,10 +113,42 @@ export default function Media() {
               </h2>
               
               <div className="space-y-6">
-                {/* Media appearance entries will be added here */}
-                <p className="text-gray-600 dark:text-gray-400 italic">
-                  Media appearances and interviews will be added here.
-                </p>
+                <div className="border-b border-gray-200 dark:border-gray-800 pb-6">
+                  <div className="flex items-start gap-4 mb-3">
+                    <div className="relative w-32 h-10 flex-shrink-0">
+                      <a 
+                        href="https://www.barchart.com/story/news/36867639/party-bands-and-music-agencies-rethink-spreadsheet-based-gig-management" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="https://www.barchart.com/favicon.ico"
+                          alt="Barchart Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://www.barchart.com/story/news/36867639/party-bands-and-music-agencies-rethink-spreadsheet-based-gig-management" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          Party Bands and Music Agencies Rethink Spreadsheet-Based Gig Management
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Barchart
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Featured in an article discussing how party bands and music agencies are modernizing their gig management processes, moving away from traditional spreadsheet-based systems.
+                  </p>
+                </div>
               </div>
             </section>
             

@@ -9,8 +9,26 @@ export const metadata: Metadata = {
 };
 
 export default function About() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Raymond Shideler',
+    url: 'https://raymondshideler.com',
+    sameAs: [
+      'https://www.imdb.com/name/nm17548422/',
+      'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
+      'https://www.airgigs.com/user/raymondrevelmusic',
+      'https://medium.com/@raymondshideler',
+    ],
+  };
+
   return (
-    <div className="min-h-screen">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-8 sm:mb-12">
           About
@@ -88,6 +106,7 @@ export default function About() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

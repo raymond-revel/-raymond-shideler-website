@@ -14,31 +14,13 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Raymond Shideler',
-    alternateName: 'Raymond Revel Shideler',
-    jobTitle: ['Marketing & Sales Professional', 'Entrepreneur', 'Film Composer', 'Songwriter', 'Music Producer'],
-    description: 'Marketing & Sales professional, Entrepreneur, Film Composer, and founding member of Soundcheck Live.',
     url: 'https://raymondshideler.com',
-    image: 'https://raymondshideler.com/images/raymond-shideler-photo.png',
     sameAs: [
+      'https://www.imdb.com/name/nm17548422/',
       'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
       'https://www.airgigs.com/user/raymondrevelmusic',
-      'https://soundbetter.com/profiles/243507-raymond-revel-shideler-iii',
-      'https://credits.muso.ai/profile/d5772709-0b56-4f96-b279-b0e21fa6e407',
-      'https://www.imdb.com/name/nm17548422/',
+      'https://medium.com/@raymondshideler',
     ],
-    knowsAbout: ['Marketing', 'Sales', 'Entrepreneurship', 'Music Production', 'Film Scoring', 'Songwriting', 'Business Development'],
-    alumniOf: {
-      '@type': 'Organization',
-      name: 'Soundcheck Live',
-    },
-    memberOf: {
-      '@type': 'Organization',
-      name: 'Soundcheck Live',
-    },
-    worksFor: {
-      '@type': 'Organization',
-      name: 'Soundcheck Live',
-    },
   };
 
   return (

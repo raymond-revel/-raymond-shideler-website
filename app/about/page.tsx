@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Raymond Shideler - Career history and professional background. Marketing & Sales professional, Entrepreneur, Film Composer, and founder of Soundcheck Live.',
+  description: 'Raymond Shideler - Career history and professional background. Marketing & Sales professional, Entrepreneur, Composer, and founder of Soundcheck Live.',
   alternates: {
     canonical: 'https://raymondshideler.com/about',
   },
@@ -14,6 +14,8 @@ export default function About() {
     '@type': 'Person',
     name: 'Raymond Shideler',
     url: 'https://raymondshideler.com',
+    jobTitle: ['Marketing & Sales Professional', 'Entrepreneur', 'Composer', 'Founding Member of Soundcheck Live'],
+    description: 'Raymond Shideler is a Marketing & Sales professional, Entrepreneur, and Composer. Founding member of Soundcheck Live, specializing in business growth and original music compositions for film and media.',
     sameAs: [
       'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
       'https://www.airgigs.com/user/raymondrevelmusic',

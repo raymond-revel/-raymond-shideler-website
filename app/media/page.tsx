@@ -15,6 +15,8 @@ export default function Media() {
     '@type': 'Person',
     name: 'Raymond Shideler',
     url: 'https://raymondshideler.com',
+    jobTitle: ['Marketing & Sales Professional', 'Entrepreneur', 'Composer', 'Founding Member of Soundcheck Live'],
+    description: 'Raymond Shideler is a Marketing & Sales professional, Entrepreneur, and Composer. Founding member of Soundcheck Live, specializing in business growth and original music compositions for film and media.',
     sameAs: [
       'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
       'https://www.airgigs.com/user/raymondrevelmusic',

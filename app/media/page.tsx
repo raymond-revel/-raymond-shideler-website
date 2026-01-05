@@ -26,99 +26,275 @@ export default function Media() {
               
               <div className="space-y-4">
                 <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                    <a 
-                      href="https://www.linkedin.com/in/raymond-shideler-bb75b8105/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                    >
-                      LinkedIn
-                    </a>
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    Connect with me on LinkedIn to view my professional background and career history.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://www.linkedin.com/in/raymond-shideler-bb75b8105/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/linkedin.png"
+                          alt="LinkedIn Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://www.linkedin.com/in/raymond-shideler-bb75b8105/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          LinkedIn
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Connect with me on LinkedIn to view my professional background and career history.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                    <a 
-                      href="https://www.airgigs.com/user/raymondrevelmusic" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                    >
-                      AirGigs
-                    </a>
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    Hire me for male vocals, songwriting, sound design, piano recordings, and vocal tuning services.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://www.airgigs.com/user/raymondrevelmusic" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/airgigs.png"
+                          alt="AirGigs Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://www.airgigs.com/user/raymondrevelmusic" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          AirGigs
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Hire me for male vocals, songwriting, sound design, piano recordings, and vocal tuning services.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                    <a 
-                      href="https://soundbetter.com/profiles/243507-raymond-revel-shideler-iii" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                    >
-                      SoundBetter
-                    </a>
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    Professional music production services including songwriting, vocals, and film scoring.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://soundbetter.com/profiles/243507-raymond-revel-shideler-iii" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/soundbetter.png"
+                          alt="SoundBetter Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://soundbetter.com/profiles/243507-raymond-revel-shideler-iii" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          SoundBetter
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Professional music production services including songwriting, vocals, and film scoring.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                    <a 
-                      href="https://credits.muso.ai/profile/d5772709-0b56-4f96-b279-b0e21fa6e407" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                    >
-                      Muso.io
-                    </a>
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    View my music credits and professional work portfolio.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://credits.muso.ai/profile/d5772709-0b56-4f96-b279-b0e21fa6e407" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/muso.jpeg"
+                          alt="Muso.io Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://credits.muso.ai/profile/d5772709-0b56-4f96-b279-b0e21fa6e407" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          Muso.io
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        View my music credits and professional work portfolio.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                    <a 
-                      href="https://www.imdb.com/name/nm17548422/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                    >
-                      IMDb
-                    </a>
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    Check out my film and television credits on IMDb.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://www.imdb.com/name/nm17548422/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/imdb.svg"
+                          alt="IMDb Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://www.imdb.com/name/nm17548422/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          IMDb
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Check out my film and television credits on IMDb.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                    <a 
-                      href="https://muckrack.com/raymond-shideler" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
-                    >
-                      MuckRack
-                    </a>
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                    View my media coverage, articles, and press mentions on MuckRack.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://muckrack.com/raymond-shideler" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/muckrack.png"
+                          alt="MuckRack Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://muckrack.com/raymond-shideler" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          MuckRack
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        View my media coverage, articles, and press mentions on MuckRack.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://medium.com/@raymondshideler" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/medium.png"
+                          alt="Medium Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://medium.com/@raymondshideler" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          Medium
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Read my articles and insights on film scoring, music production, and business innovation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://about.me/raymondshideler" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/aboutme.png"
+                          alt="About.me Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://about.me/raymondshideler" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          About.me
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        View my professional profile and learn more about my work as a music producer, composer, and entrepreneur.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
@@ -174,10 +350,79 @@ export default function Media() {
               </h2>
               
               <div className="space-y-6">
-                {/* Publication entries will be added here */}
-                <p className="text-gray-600 dark:text-gray-400 italic">
-                  Publications and articles will be added here.
-                </p>
+                <div className="border-b border-gray-200 dark:border-gray-800 pb-6">
+                  <div className="flex items-start gap-4 mb-3">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://medium.com/@raymondshideler/raymond-shideler-on-film-scoring-and-building-narrative-through-music-333b773e4bfb" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/medium.png"
+                          alt="Medium Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://medium.com/@raymondshideler/raymond-shideler-on-film-scoring-and-building-narrative-through-music-333b773e4bfb" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          Raymond Shideler on Film Scoring and Building Narrative Through Music
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Medium
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Insights on the art of film scoring and how music shapes narrative in visual storytelling.
+                  </p>
+                </div>
+                
+                <div className="border-b border-gray-200 dark:border-gray-800 pb-6">
+                  <div className="flex items-start gap-4 mb-3">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://medium.com/@raymondshideler/raymond-shideler-on-why-gig-management-tools-are-replacing-spreadsheets-in-live-music-operations-0417807a774d" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/medium.png"
+                          alt="Medium Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://medium.com/@raymondshideler/raymond-shideler-on-why-gig-management-tools-are-replacing-spreadsheets-in-live-music-operations-0417807a774d" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          Raymond Shideler on Why Gig Management Tools Are Replacing Spreadsheets in Live Music Operations
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Medium
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Exploring the evolution of gig management in the live music industry and the shift from traditional spreadsheet-based systems to modern tools.
+                  </p>
+                </div>
               </div>
             </section>
           </div>

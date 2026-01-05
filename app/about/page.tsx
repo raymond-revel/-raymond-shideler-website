@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Career history and professional background of Raymond Shideler - Marketing & Sales professional and Entrepreneur.',
+  description: 'Raymond Shideler - Career history and professional background. Marketing & Sales professional, Entrepreneur, Film Composer, and founder of Soundcheck Live.',
   alternates: {
     canonical: 'https://raymondshideler.com/about',
   },
@@ -15,10 +15,14 @@ export default function About() {
     name: 'Raymond Shideler',
     url: 'https://raymondshideler.com',
     sameAs: [
-      'https://www.imdb.com/name/nm17548422/',
       'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
       'https://www.airgigs.com/user/raymondrevelmusic',
+      'https://soundbetter.com/profiles/243507-raymond-revel-shideler-iii',
+      'https://credits.muso.ai/profile/d5772709-0b56-4f96-b279-b0e21fa6e407',
+      'https://www.imdb.com/name/nm17548422/',
+      'https://muckrack.com/raymond-shideler',
       'https://medium.com/@raymondshideler',
+      'https://about.me/raymondshideler',
     ],
   };
 

@@ -9,8 +9,8 @@ export const metadata: Metadata = {
     default: 'Raymond Shideler | Marketing & Sales | Entrepreneur | Soundcheck Live',
     template: '%s | Raymond Shideler',
   },
-  description: 'Marketing & Sales professional, Entrepreneur, and founder of Soundcheck Live. Expert in driving growth and building successful businesses.',
-  keywords: ['Raymond Shideler', 'Marketing', 'Sales', 'Entrepreneur', 'Soundcheck Live', 'Film Composer', 'Songwriter', 'Music Producer'],
+  description: 'Raymond Shideler - Marketing & Sales professional, Entrepreneur, and founder of Soundcheck Live. Expert in driving growth and building successful businesses. Film composer and songwriter.',
+  keywords: ['Raymond Shideler', 'Marketing', 'Sales', 'Entrepreneur', 'Soundcheck Live', 'Film Composer', 'Songwriter', 'Music Producer', 'Raymond Shideler Marketing', 'Raymond Shideler Sales', 'Raymond Shideler Entrepreneur'],
   authors: [{ name: 'Raymond Shideler' }],
   creator: 'Raymond Shideler',
   openGraph: {

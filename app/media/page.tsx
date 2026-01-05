@@ -3,14 +3,36 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Media & Socials',
-  description: 'Media appearances, publications, and social profiles of Raymond Shideler.',
+  description: 'Raymond Shideler - Media appearances, publications, and social profiles. Connect with Raymond Shideler on LinkedIn, Medium, IMDb, and other professional platforms.',
   alternates: {
     canonical: 'https://raymondshideler.com/media',
   },
 };
 
 export default function Media() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Raymond Shideler',
+    url: 'https://raymondshideler.com',
+    sameAs: [
+      'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
+      'https://www.airgigs.com/user/raymondrevelmusic',
+      'https://soundbetter.com/profiles/243507-raymond-revel-shideler-iii',
+      'https://credits.muso.ai/profile/d5772709-0b56-4f96-b279-b0e21fa6e407',
+      'https://www.imdb.com/name/nm17548422/',
+      'https://muckrack.com/raymond-shideler',
+      'https://medium.com/@raymondshideler',
+      'https://about.me/raymondshideler',
+    ],
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
     <div className="min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-8 sm:mb-12">
@@ -429,6 +451,7 @@ export default function Media() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

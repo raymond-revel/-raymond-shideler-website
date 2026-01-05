@@ -104,6 +104,22 @@ export default function Media() {
                     Check out my film and television credits on IMDb.
                   </p>
                 </div>
+                
+                <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                    <a 
+                      href="https://muckrack.com/raymond-shideler" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                    >
+                      MuckRack
+                    </a>
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                    View my media coverage, articles, and press mentions on MuckRack.
+                  </p>
+                </div>
               </div>
             </section>
             

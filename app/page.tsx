@@ -2,8 +2,8 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Raymond Shideler | Marketing & Sales | Entrepreneur | Composer | Soundcheck Live',
-  description: 'Raymond Shideler - Marketing & Sales professional, Entrepreneur, Composer, and founder of Soundcheck Live. Expert in driving growth, building successful businesses, and creating original music compositions for film and media.',
+  title: 'Raymond Revel Shideler III | Composer & Music Producer for Film | Entrepreneur | Creative',
+  description: 'Raymond Revel Shideler III is a composer and music producer specializing in film scoring, visual media, and creative music projects. He is also a founding member of Soundcheck Live.',
   alternates: {
     canonical: 'https://raymondshideler.com',
   },
@@ -13,10 +13,11 @@ export default function Home() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Raymond Shideler',
+    name: 'Raymond Revel Shideler III',
+    alternateName: 'Raymond Shideler',
     url: 'https://raymondshideler.com',
-    jobTitle: ['Marketing & Sales Professional', 'Entrepreneur', 'Composer', 'Founding Member of Soundcheck Live'],
-    description: 'Raymond Shideler is a Marketing & Sales professional, Entrepreneur, and Composer. Founding member of Soundcheck Live, specializing in business growth and original music compositions for film and media.',
+    jobTitle: ['Composer', 'Music Producer', 'Film Composer', 'Entrepreneur', 'Founding Member of Soundcheck Live'],
+    description: 'Raymond Revel Shideler III is a composer and music producer specializing in film scoring, visual media, and creative music projects. He is also a founding member of Soundcheck Live.',
     sameAs: [
       'https://www.linkedin.com/in/raymond-shideler-bb75b8105/',
       'https://www.airgigs.com/user/raymondrevelmusic',
@@ -42,7 +43,7 @@ export default function Home() {
             <div className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-gray-200 dark:border-gray-800 shadow-lg">
               <Image
                 src="/images/raymond-shideler-photo.png"
-                alt="Raymond Shideler"
+                alt="Raymond Revel Shideler III"
                 fill
                 className="object-cover"
                 priority

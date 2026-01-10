@@ -26,6 +26,7 @@ export default function Media() {
       'https://muckrack.com/raymond-shideler',
       'https://medium.com/@raymondshideler',
       'https://about.me/raymondshideler',
+      'https://x.com/RayShidelerIII',
     ],
   };
 
@@ -320,6 +321,40 @@ export default function Media() {
                     </div>
                   </div>
                 </div>
+                
+                <div className="border-l-4 border-gray-300 dark:border-gray-700 pl-6 py-4">
+                  <div className="flex items-start gap-4">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://x.com/RayShidelerIII" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="https://x.com/favicon.ico"
+                          alt="X (Twitter) Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://x.com/RayShidelerIII" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          X (Twitter)
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        Follow me on X for updates on my work in music production, film scoring, and entrepreneurship.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
             
@@ -445,6 +480,80 @@ export default function Media() {
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                     Exploring the evolution of gig management in the live music industry and the shift from traditional spreadsheet-based systems to modern tools.
+                  </p>
+                </div>
+                
+                <div className="border-b border-gray-200 dark:border-gray-800 pb-6">
+                  <div className="flex items-start gap-4 mb-3">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://soundchecklive.io/blog/gig-economy-remix" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="https://soundchecklive.io/favicon.ico"
+                          alt="Soundcheck Live Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://soundchecklive.io/blog/gig-economy-remix" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          The Gig Economy Remix: How Soundcheck Live Is Redefining Live Music Operations
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Soundcheck Live
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Featured in Soundcheck Live's blog discussing how the platform is transforming live music operations and helping teams move away from traditional spreadsheet-based gig management systems.
+                  </p>
+                </div>
+                
+                <div className="border-b border-gray-200 dark:border-gray-800 pb-6">
+                  <div className="flex items-start gap-4 mb-3">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://medium.com/@raymondshideler/raymond-shideler-on-the-art-and-craft-of-scoring-for-film-and-visual-media-03896ea192d3" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/medium.png"
+                          alt="Medium Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://medium.com/@raymondshideler/raymond-shideler-on-the-art-and-craft-of-scoring-for-film-and-visual-media-03896ea192d3" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          Raymond Shideler on the Art and Craft of Scoring for Film and Visual Media
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Medium
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Exploring the artistry and technical expertise behind film scoring and creating music for visual media.
                   </p>
                 </div>
               </div>

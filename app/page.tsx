@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 mb-4 sm:mb-6">
-            Raymond Shideler
+            Raymond Revel Shideler III
           </h1>
           
           <div className="text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 mb-8 sm:mb-12 space-y-2">
@@ -65,7 +65,7 @@ export default function Home() {
           
           <div className="max-w-2xl mt-8 sm:mt-12">
             <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              Welcome to my personal website. I'm <strong>Raymond Shideler</strong>, a marketing and sales professional with a passion for entrepreneurship and innovation. 
+              Welcome to my personal website. I'm <strong>Raymond Revel Shideler III</strong>, a marketing and sales professional with a passion for entrepreneurship and innovation. 
               As a founding member of <strong>Soundcheck Live</strong>, I'm dedicated to building successful businesses and driving growth through strategic marketing and sales initiatives.
             </p>
             <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mt-4">

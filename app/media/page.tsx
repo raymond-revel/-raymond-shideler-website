@@ -27,6 +27,7 @@ export default function Media() {
       'https://medium.com/@raymondshideler',
       'https://about.me/raymondshideler',
       'https://x.com/RayShidelerIII',
+      'https://raymondrevelshideleriii.substack.com',
     ],
   };
 
@@ -554,6 +555,43 @@ export default function Media() {
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                     Exploring the artistry and technical expertise behind film scoring and creating music for visual media.
+                  </p>
+                </div>
+                
+                <div className="border-b border-gray-200 dark:border-gray-800 pb-6">
+                  <div className="flex items-start gap-4 mb-3">
+                    <div className="relative w-10 h-10 flex-shrink-0 mt-1">
+                      <a 
+                        href="https://raymondrevelshideleriii.substack.com/p/how-music-shapes-emotion-in-film" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block h-full"
+                      >
+                        <img
+                          src="/images/logos/substack.png"
+                          alt="Substack Logo"
+                          className="h-full w-auto object-contain"
+                        />
+                      </a>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                        <a 
+                          href="https://raymondrevelshideleriii.substack.com/p/how-music-shapes-emotion-in-film" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
+                        >
+                          How Music Shapes Emotion in Film
+                        </a>
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Substack
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Exploring the unique role of music in film, how well-crafted scores guide emotion and reinforce narrative, and the intersection of technology and modern music production.
                   </p>
                 </div>
               </div>
